@@ -1,0 +1,55 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+}
+
+div {
+    
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    margin: 200px 500px;
+    padding: 10px;
+    font-family: firstfont;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    font-family: firstfont;
+}
+input {
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: firstfont;
+    
+}
+input[type=text], label[for=FirstName] {
+    display: inline;
+    padding-left: 15px;
+    
+ }
+ input[type=text], label[for=LastName] {
+    display: inline;
+    padding-left: 16px;
+ }
+
+ input[type=text], label[for=Email] {
+    display: inline;
+    padding-left: 40px;
+ }
+ input[type=submit], label[for=Submit]{
+    padding: 5px 158px;
+    font-size: 10px;
+ }
+@font-face {
+    font-family: firstfont;
+    src: url(Pangolin-Regular.ttf);
+}
+
+
+
+
